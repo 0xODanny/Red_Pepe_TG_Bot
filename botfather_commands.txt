@@ -1,0 +1,11 @@
+redpepebot - Start the bot and see a welcome message.
+getwallet - This command will create a new wallet for you.
+balance - Check your token balances.
+buy - <amount> <token> - Buy a specified amount of a token using AVAX.
+sell - <amount> <token> - Sell a specified amount of a token for AVAX.
+tip - <amount> <token> - Tip a user with a specified amount of tokens.
+rain - <amount> <token> <hours> - Make it rain in the chat! 
+convert - <amount> <from_token> <to_token> - Convert between different tokens.
+top10token1 - Display the top users for buying and tipping BALLN.
+top10token2 - Display the top users for buying and tipping RPEPE.
+commands - List all available commands.

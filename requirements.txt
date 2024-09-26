@@ -1,0 +1,23 @@
+python-telegram-bot==20.5
+web3==6.9.0
+requests==2.31.0
+python-dotenv==1.0.0
+setuptools>=42.0.0
+
+#You can install all of the above dependencies directly from terminal: 
+#$ pip install -r requirements.txt
+
+Explanation of Each Requirement:
+
+	1.	python-telegram-bot==20.5:
+	•	This package allows interaction with the Telegram Bot API, enabling features like sending and receiving messages and handling commands and callbacks. Version 20.5 is specified to ensure compatibility with the current bot functions.
+	2.	web3==6.9.0:
+	•	Web3.py is the Python library used to interact with blockchain networks like Ethereum and Avalanche. Version 6.9.0 ensures compatibility with the contract interactions and token transfers.
+	3.	requests==2.31.0:
+	•	A popular Python library for making HTTP requests, used here for API interactions (e.g., fetching token prices from CoinGecko).
+	4.	python-dotenv==1.0.0:
+	•	This package helps manage environment variables by loading them from a .env file, which is critical for storing sensitive information like API keys and wallet addresses.
+	5.	setuptools>=42.0.0:
+	•	Setuptools is a package development and distribution tool. It’s used for packaging Python projects, and the latest versions are required for compatibility and stability.
+
+This requirements.txt file is now fully tailored for the redpepebot project and ensures all necessary libraries are included.
